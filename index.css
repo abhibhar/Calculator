@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 400px;
+    margin: 200px;
+    border: 2px solid black;
+    
+    
+}
+.button{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.screen{
+    background-color: black;
+}
+.screen h1{
+    text-align: end;
+}
+.btn{
+    background-color: #4CAF50; /* Green */
+    border: 2px solid  black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    display: inline;
+    font-size: 20px;
+    flex-basis: 100px;
+}
+#box-16{
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+#display{
+    padding: 10px;
+}
